@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Letra por letra</title>
+    <title>Potencias de 2h</title>
 </head>
 <body>
-    <h1>Letra por letra</h1>
+   <h1>Potencias de 2 hasta 10000</h1>
     <script>
-    var palabras=prompt("Ingresar una palabra")
-    for(letras of palabras)
-    {
-    document.write(letras + " <br>")
-    }
+        var numeros = [0];
+
+        for(var i=2; i<10000; i*=2)
+        {
+            numeros.push(i)
+        }   
+        document.write(numeros);
     </script>
+    
 </body>
 </html>

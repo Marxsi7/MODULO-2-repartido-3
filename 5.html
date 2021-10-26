@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Letra por letra</title>
+    <title>Mostrar hasta el 5</title>
 </head>
 <body>
-    <h1>Letra por letra</h1>
+    <h1>Mostrar hasta el 5</h1>
     <script>
-    var palabras=prompt("Ingresar una palabra")
-    for(letras of palabras)
-    {
-    document.write(letras + " <br>")
-    }
+   
+   var numeros=1;
+
+for(numeros; numeros<=10; numeros++)
+{
+    if(numeros==6)
+    {break}
+    document.write(numeros)
+}
+    document.write("<br>")
+    
     </script>
 </body>
 </html>
+
